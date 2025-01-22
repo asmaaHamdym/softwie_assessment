@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import HeroImg from "../assets/todo-lists-hero.jpg";
+// import HeroImg from "../assets/todo-lists-hero.jpg";
 import Navbar from "../components/Navbar";
 const Homepage = () => {
   return (
