@@ -5,6 +5,7 @@ import togglePassword from "../assets/tooglePassword.png";
 import loginImg from "../assets/todo-lists.jpg";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
+
 import axios from "axios";
 
 const api = import.meta.env.VITE_APP_API_URL;
@@ -80,6 +81,7 @@ const LogIn = () => {
         if (keepLoggedin) {
           localStorage.setItem("user", JSON.stringify(res.data.data.user));
         }
+        navigate();
       })
       .catch((err) => {
         console.log(err.response.data.error);
@@ -95,7 +97,7 @@ const LogIn = () => {
           style={{
             backgroundImage: `url(${loginImg})`,
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "20% 50%",
           }}
         >
           <div className="flex">
