@@ -20,8 +20,8 @@ const Footer = () => {
               />
             </div>
             <p className="max-w-xs font-raleway font-lg text-base md:leading-5 pb-4">
-              Tickety is an e booking app that aims to make organizing events
-              easy and streamlined for organizers and event attendees.
+              My tasks is an app that aims to make handling tasks easy and
+              streamlined for everyone
             </p>
             <h1 className="text-2xl font-bold py-4">Follow us on</h1>
             <div className="flex justify-evenly md:justify-between pb-8">
@@ -93,25 +93,12 @@ const Footer = () => {
           </div>
           <div className="flex flex-col px-2">
             <h1 className="md:text-3xl font-bold pb-8">Home</h1>
-            <h4 className="pb-6">Gallery</h4>
             <h4 className="pb-6">Blog post</h4>
             <h4 className="pb-6">About us</h4>
+            <h4 className="pb-6">Subscribe</h4>
             <h4 className="pb-6">FAQ</h4>
           </div>
-          <div className="flex flex-col">
-            <h1 className="md:text-3xl font-bold pb-8">Services</h1>
-            <h4 className="pb-6">Event Managment</h4>
-            <h4 className="pb-6">Event planning</h4>
-            <h4 className="pb-6">Analytics</h4>
-            <h4 className="pb-6">Feedback & surveys</h4>
-          </div>
-          <div className="flex flex-col">
-            <h1 className="md:text-3xl font-bold pb-8">Events</h1>
-            <h4 className="pb-6">Corporate</h4>
-            <h4 className="pb-6">Entertainment</h4>
-            <h4 className="pb-6">Reunions</h4>
-            <h4 className="pb-6">Festival</h4>
-          </div>
+
           <div className="flex flex-col">
             <h1 className="text-3xl font-bold pb-8">Contact us</h1>
             <div className="flex align-center gap-4">
@@ -147,7 +134,7 @@ const Footer = () => {
                 />
               </svg>
 
-              <h4 className="pb-6">info@tickety.com</h4>
+              <h4 className="pb-6">info@mytasks.com</h4>
             </div>
             <div className="flex align-center gap-4">
               <svg
